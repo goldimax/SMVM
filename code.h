@@ -19,10 +19,6 @@ QHash<QString, char*> funs = {
         {"printInt", (char*)printInt}
 };
 
-char toHex(char c) {
-    return (c >= '0' && c <= '9') ? c - '0' : c - 'a' + (char)10;
-}
-
 void writeAddr(char *&m, char *p) {
     for (auto ip = (unsigned long long)p, i = 0ull; i < 8; i++) {
         *m = ip % 256;

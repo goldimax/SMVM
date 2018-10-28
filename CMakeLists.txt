@@ -7,6 +7,6 @@ set(CMAKE_AUTOMOC ON)
 
 find_package(Qt5Core)
 
-add_executable(${PROJECT_NAME} "main.cpp")
+add_executable(${PROJECT_NAME} "main.cpp" cmd.h global.h i18n/i18n.h mem.h code.h)
 
 target_link_libraries(${PROJECT_NAME} Qt5::Core)
