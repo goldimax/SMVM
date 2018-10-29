@@ -1,7 +1,38 @@
+@main:100
 55
 48 89 e5
-48 b8 <printInt>
-bf e9 00 00 00
+
+48 b8 <foo>
+bf 00 01 00 00
 ff d0
+
+89 c2
+48 b8 <printInt>
+89 d7
+ff d0
+
+48 b8 <foo+12>
+c6 00 01
+
+48 b8 <foo>
+bf 00 01 00 00
+ff d0
+
+89 c2
+48 b8 <printInt>
+89 d7
+ff d0
+
+5d
+c3
+
+@foo:50
+55
+48 89 e5
+
+89 7d fc
+8b 45 fc
+83 c0 10
+
 5d
 c3

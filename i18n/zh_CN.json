@@ -2,5 +2,6 @@
   "Cannot find command ": "找不到命令 ",
   "SMVM - self modifiable virtual machine": "SMVM - 自修改虚拟机(self modifiable virtual machine)",
   "\trun <FILE>\trun from <FILE>": "\trun <文件>\t从<文件>运行",
-  "\thelp\t\tprint this info": "\thelp\t\t打印这则帮助信息"
+  "\thelp\t\tprint this info": "\thelp\t\t打印这则帮助信息",
+  " not find": " 不存在"
 }

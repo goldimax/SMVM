@@ -48,6 +48,7 @@ void runFile(QVector<QString> &arg) {
     auto mem = (char *) getMen(4096);
     runFun f = genCode(mem, ins);
     f();
+    munmap(mem, 4096);
 }
 
 QHash<QString, cmdFun> cmd = {
